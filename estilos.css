@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+}
+
+.contenedor{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.header{
+    background-color:#ccc;
+    border: 1px solid rgba(255, 255, 255, 255);
+    width: 100%;
+    height: 120px; 
+}
+
+.header h2{
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+    text-transform: uppercase;
+
+    /* ALINEAR VERTICALMENTE EL H2 */
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenido{
+    background: beige;
+    margin: 10px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+
+.main{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 60%;
+    float: right;
+    
+}
+
+
+.info{
+    border: 1px;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    right: 10px;
+    top: 50px;
+    width: 55%;
+    height:50%;
+}
+
+.aside{
+    border: 1px;
+    position: absolute;
+    float: left;
+    left: 20px;
+    width: 80%;
+    height:100px; 
+    overflow: hidden;
+}
+
+.aside p{
+    border: 1px;
+    position: relative;
+    float: left;
+    left: 10px;
+    top: 50px;
+    width: 25%;
+    height:100%; 
+    overflow: hidden;
+}
+
+.aside .galeria{
+    border: 1px;
+    position: relative;
+    float: left;
+    left: 10px;
+    top: 50px;
+    width: 25%;
+    height:100%; 
+    overflow: hidden;
+}
+
+.aside image{
+    border: 1px;
+    position: relative;
+    float: left;
+    left: 10px;
+    top: 50px;
+    width: 25%;
+    height:100%; 
+    overflow: hidden;
+}
+
+
+
+
+.main .formulario{
+    margin: 20px;
+    border: 1px solid;
+    float: right;
+    position: relative;
+    /*right: 10px;*/
+    top: 150px;
+    width: 50%;
+    height:100px;
+    
+}
+
+.formulario legend{
+    border: 1px;
+    position: relative;
+    /*float: right;*/
+   
+    /*right: 10px;*/
+    top: 20px;
+    width: 50%;
+    height:100%;
+    overflow: hidden;
+}
+
+.formulario ul li{
+    border: 1px;
+    position: relative;
+    /*float: right;*/
+   
+    /*right: 10px;*/
+    top: 20px;
+    width: 50%;
+    height:100%;
+    overflow: hidden;
+}
+
+.formulario ul li input{
+    border: 1px;
+    position: relative;
+    /*float: right;*/
+   
+    /*right: 10px;*/
+    top: 20px;
+    width: 50%;
+    height:100%;
+    overflow: hidden;
+}
+
+.formulario ul li textarea{
+    
+}
+
+.formulario ul li button{
+    
+}
+
+.footer{
+    background-color:#ccc;
+    border: 1px solid rgba(255, 255, 255, 255);
+    width: 100%;
+    height: 120px;
+}
+
+.footer p{
+    width: 100%;
+    color: aliceblue;
+    
+    /* ALINEAR VERTICALMENTE EL H2 */
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer .autor{
+    float: left;
+    
+}
+
+.footer .contacto{
+    float: right;
+}
